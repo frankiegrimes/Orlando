@@ -1,0 +1,80 @@
+/* Colours */
+/* FONTS */
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Bold"), local("GothamBold"), url("../assets/fonts/hinted-subset-GothamBold.woff2") format("woff2"), url("../assets/fonts/hinted-subset-GothamBold.woff") format("woff"), url("../assets/fonts/hinted-subset-GothamBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: local("Gotham Book"), local("GothamBook"), url("../assets/fonts/hinted-subset-GothamBook.woff2") format("woff2"), url("../assets/fonts/hinted-subset-GothamBook.woff") format("woff"), url("../assets/fonts/hinted-subset-GothamBook.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: local("Gotham Book"), local("Gotham-Book"), url("../assets/fonts/hinted-subset-Gotham-Book.woff2") format("woff2"), url("../assets/fonts/hinted-subset-Gotham-Book.woff") format("woff"), url("../assets/fonts/hinted-subset-Gotham-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham-Bold"), url("../assets/fonts/hinted-subset-Gotham-Bold.woff2") format("woff2"), url("../assets/fonts/hinted-subset-Gotham-Bold.woff") format("woff"), url("../assets/fonts/hinted-subset-Gotham-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham';
+  src: local("Gotham Bold Regular"), local("GothamBold"), url("../assets/fonts/hinted-subset-GothamBold.woff2") format("woff2"), url("../assets/fonts/hinted-subset-GothamBold.woff") format("woff"), url("../assets/fonts/hinted-subset-GothamBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: local("Gotham Book Regular"), local("Gotham-Book"), url("../assets/fonts/hinted-subset-Gotham-Book.woff2") format("woff2"), url("../assets/fonts/hinted-subset-Gotham-Book.woff") format("woff"), url("../assets/fonts/hinted-subset-Gotham-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Main text styles */
+h1 {
+  font-family: 'Gotham';
+  font-size: 2.4rem;
+  color: #3500D3; }
+
+h2 {
+  font-family: 'Gotham Book';
+  font-size: 0.7rem; }
+
+p {
+  color: #3500D3;
+  text-indent: 3rem;
+  font-family: 'Gotham Book'; }
+
+.bold {
+  font-family: 'Gotham'; }
+
+nav ul, .landing-menu ul {
+  list-style-type: none; }
+
+.yellow {
+  color: #f7f02e; }
+
+.pink {
+  color: #E542F4; }
+
+.green {
+  color: #64E24A; }
+
+.red {
+  color: #FF5A23; }
+
+/* Nav */
+.top-bar, .top-bar ul {
+  background-color: #fff; }
+
+.down {
+  padding-top: 10rem; }
+
+.down-small {
+  padding-top: 3rem; }
